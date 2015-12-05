@@ -56,7 +56,8 @@ p {
 }
 
 section {
-    padding: 100px 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 aside {
@@ -287,6 +288,42 @@ header {
     h2 {
         margin: 0 auto 20px;
     }
+}
+
+.fb-nav {
+  i {
+    margin-right: 10px;
+  }
+}
+
+.form {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: #fff;
+  background: #000;
+  font-size: 14px;
+  i {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+  &:hover {
+    color: #eee;
+    text-decoration: none;
+  }
+  a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none!important;
+  }
+  &:hover {
+    color: #eee!important;
+    text-decoration: none;
+  }
 }
 
 // Bootstrap Overrides
